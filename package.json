@@ -1,0 +1,22 @@
+{
+  "name": "@forgesaroj/tally-mock-server",
+  "version": "0.1.0",
+  "description": "A local deterministic HTTP mock for testing Tally XML integrations.",
+  "type": "module",
+  "private": false,
+  "bin": {
+    "tally-mock-server": "./bin/tally-mock-server.js"
+  },
+  "exports": {
+    ".": "./src/server.js"
+  },
+  "files": ["bin/", "src/", "fixtures/", "README.md", "LICENSE", "SECURITY.md"],
+  "scripts": {
+    "start": "node ./bin/tally-mock-server.js",
+    "test": "node --test",
+    "check": "node --check src/server.js && node --check bin/tally-mock-server.js"
+  },
+  "engines": { "node": ">=20" },
+  "keywords": ["tally", "tallyprime", "xml", "mock-server", "testing", "erp", "integration"],
+  "license": "MIT"
+}

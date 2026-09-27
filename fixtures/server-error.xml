@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ENVELOPE>
+  <HEADER><VERSION>1</VERSION><STATUS>0</STATUS></HEADER>
+  <BODY><DATA><LINEERROR>Demo fixture: simulated server unavailable</LINEERROR></DATA></BODY>
+</ENVELOPE>

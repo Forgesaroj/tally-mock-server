@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ENVELOPE>
+  <HEADER><VERSION>1</VERSION><STATUS>1</STATUS></HEADER>
+  <BODY>
+    <DATA>
+      <COLLECTION>
+        <LEDGER NAME="Demo Customer">
+          <NAME>Demo Customer</NAME>
+          <PARENT>Sundry Debtors</PARENT>
+          <CLOSINGBALANCE>1250.00 Dr</CLOSINGBALANCE>
+        </LEDGER>
+      </COLLECTION>
+    </DATA>
+  </BODY>
+</ENVELOPE>

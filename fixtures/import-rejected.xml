@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ENVELOPE>
+  <HEADER><VERSION>1</VERSION><STATUS>1</STATUS></HEADER>
+  <BODY>
+    <DATA>
+      <IMPORTRESULT>
+        <CREATED>0</CREATED><ALTERED>0</ALTERED><DELETED>0</DELETED>
+        <ERRORS>1</ERRORS><CANCELLED>0</CANCELLED><EXCEPTIONS>0</EXCEPTIONS>
+        <LINEERROR>Demo fixture: voucher references an unknown ledger</LINEERROR>
+      </IMPORTRESULT>
+    </DATA>
+  </BODY>
+</ENVELOPE>
